@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main" class="main-container">
+      <div class="box">
+        <h2>Registrarse como miembro de Telefónica</h2>
+        <form action="index_base.html" id="register_form">
+          <div class="input-box">
+            <input id="input_id" type="number" />
+            <label>Numero de Identificación:</label>
+          </div>
+          <div class="input-box">
+            <input id="input_name" type="text" />
+            <label>Nombre:</label>
+          </div>
+          <div class="input-box">
+            <input id="input_email" type="email" />
+            <label>Correo Electrónico:</label>
+          </div>
+          <div class="input-box">
+            <input id="input_dob" type="date" />
+            <label>Fecha de Nacimiento:</label>
+          </div>
+          <div class="input-box">
+            <input id="input_age" type="number" />
+            <label>Edad:</label>
+          </div>
+          <!--Username and Password Test-->
+          <div class="input-box">
+            <input id="user-name" type="text" required="" />
+            <label>Usuario</label>
+          </div>
+          <div class="input-box">
+            <input id="user-pass" type="password" required="" />
+            <label>Contraseña</label>
+          </div>
+          <!--Check-->
+          <button id="submit_button" type="button">Submit</button>
+          <button id="find_data_button" type="button">Ver Datos</button>
+          <button type="submit">Go To Home Page</button>
+
+          <br />
+          <br />
+          <div class="output-box">
+            <label>ID:</label>
+            <p id="idIn"></p>
+          </div>
+          <div class="output-box">
+            <label>Nombre:</label>
+            <p id="nameIn"></p>
+          </div>
+          <div class="output-box">
+            <label>Fecha De Nacimiento:</label>
+            <p id="dateOfBirthIn"></p>
+          </div>
+          <div class="output-box">
+            <label>E-Mail:</label>
+            <p id="emailIn"></p>
+          </div>
+          <div class="output-box">
+            <label>Edad:</label>
+            <p id="ageIn"></p>
+          </div>
+          <div class="output-box">
+            <label>Usuario:</label>
+            <p id="usernameIn"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

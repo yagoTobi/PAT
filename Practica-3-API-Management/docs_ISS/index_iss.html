@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="font/Rimouski.css">
+    <script
+      src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+      integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+      crossorigin=""
+    ></script>
+    <style>
+      #issMap {
+        height: 300px;
+      }
+    </style>
+
+    <title>ISS DATA</title>
+  </head>
+  <body>
+    <h1>¿Donde esta la ISS ahora?</h1>
+
+    <p>
+      Latitud: <span id="lat"></span>°<br />
+      Longitud: <span id="lon"></span>°
+    </p>
+
+    <div id="issMap"></div>
+
+    <br><br><br><br><br>
+
+    <div class="container">
+      <div class="app-title">
+          <p>Tiempo en la región que sobrepasa la ISS</p>
+      </div>
+      <div class="notification"> </div>
+      <div class="weather-container">
+          <div class="weather-icon">
+              <img src="assets/icons/unknown.png" alt="">
+          </div>
+          <div class="temperature-value">
+              <p>- °<span>C</span></p>
+          </div>
+          <div class="temperature-description">
+              <p> - </p>
+          </div>
+          <div class="location">
+              <p>-</p>
+          </div>
+      </div>
+  </div>
+
+
+  </body>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,42 @@
+Requerimientos:
+
+Bases de datos: Las entregas tienen que incluir un minimo de 5 Tablas.
+
+- 5 Tablas a hacer: 
+    1. Usuarios 
+    2. Hosts 
+    3. Vehiculos 
+    4. Cargadores 
+    5. Gente registrada a la newsletter
+    6. Reservas
+
+Vistas Web: Las soluciones tienen que tener un minimo de 10 Vistas Web (Documentos HTML con CSS y Javascript)
+
+    1. Pagina Web Principal 
+    2. Sobre Nosotros 
+    3. Login Page
+    4. Sign Up Page 
+    5. Newsletter Sign Up 
+    6. Map Search
+    7. User profile 
+    8. User management 
+    9. Reservar cargador
+    10. Error Page
+
+Criterios de evaluacion:
+
+Funcionalidad:
+
+Look & Feel (1)
+Formularios (1)
+Desarrollo:
+
+Scaffolding de proyecto (1.5)
+Seguridad (1)
+Base de datos (1.5)
+Documentación (1)
+
+Tecnología:
+
+Dependencias (1)
+Tests (2)
