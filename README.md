@@ -3,53 +3,54 @@
 This repository contains all the practical work completed for the Web Application Development course at Universidad Pontificia Comillas ICAI.
 
 ## Projects Overview
-### 1. Practica-1-Pagina-Web-Base - Introduction to hosting websites on GitHub Pages.
+
+### 1. Practica-1-Pagina-Web-Base - Introduction to hosting websites on GitHub Pages
 ![Telefónica GitHub Layout](./repo-images/Practical-1-Github-Pages.png)
-- This was a brief refresher on how to build websites from the ground up using HTML and CSS. 
-- The objective was to build a site template inspired by a specific company and host it using GitHub pages with a very basic skeleton layout which we would build upon later. 
+- This project served as a refresher on building websites from the ground up using HTML and CSS.
+- The objective was to create a site template inspired by a specific company and host it using GitHub Pages, establishing a basic skeleton layout to be expanded upon in later projects.
 
-### 2. Practica-2-Bootstrap - Exploration of Bootstrap framework and template usage.
+### 2. Practica-2-Bootstrap - Exploration of Bootstrap framework and template usage
 ![Telefónica GitHub Layout w/ Bootstrap](./repo-images/Practical-2-Bootstrap-Template.png)
-- This was the project which followed, going through Bootstrap and it's efficient CSS development and 12 column structure. 
-- I built upon the website in project 1 by obtaining a bootstrap template and evolving the appearance of the website, by reading documentation and applying good structure and design changes. 
+- This project focused on Bootstrap, exploring its efficient CSS development and 12-column structure.
+- Building upon the website from project 1, I incorporated a Bootstrap template and enhanced the site's appearance by studying documentation and applying sound structure and design principles.
 
-### 3. Practica-3-API-Management - Fundamentals of API management.
+### 3. Practica-3-API-Management - Fundamentals of API management
 ![Telefónica GitHub Layout w/ Bootstrap](./repo-images/Practical-3-ISS-API.png)
-- This class reviewed the usage of API's and how to navigate their documentation. For the class project we had to develop a website (this time incorporating JavaScript) which had two API's interact with each other. 
-- The project you can observe is a mix between where the International Space Station is located in real time with its API, and using a weather API combining these you can figure out not only where the ISS is, but what the weather is like over that region. 
-- I started off with a rough skeleton website, and then incorporated a smooth and nice design with bootstrap to improve the user experience and layout. 
+- This class covered API usage and documentation navigation. The project required developing a website (now incorporating JavaScript) that integrated two APIs.
+- The resulting project combines the International Space Station's real-time location API with a weather API, allowing users to determine both the ISS's position and the weather conditions in that region.
+- Starting with a basic website structure, I incorporated a sleek design using Bootstrap to enhance user experience and layout.
 
-### 4. Practica-4-Springboot - API development using Spring Boot.
+### 4. Practica-4-Springboot - API development using Spring Boot
 ![Telefónica GitHub Layout w/ Bootstrap](./repo-images/Practical-4-FORM.png)
-- For this practical we dive a lot deeper onto the CRUD methodologies for an API, and how we can develop them using a Java Back-end in the form of SpringBoot. 
-- Personally, I think that SpringBoot is super bloated as a back-end, but it was good to learn about another possible tech stack and building upon my OOP classes from the previous year. 
-- The API developed was very simple, we developed it just so that a user could fill in a personal details form to sign up to our website, and be able to get the information through a GET method without validation parameters in the same screen. 
+- This practical delved deeper into CRUD methodologies for API development, using a Java back-end with Spring Boot.
+- While Spring Boot may seem extensive for a back-end, it provided valuable insights into another tech stack and built upon my previous year's OOP classes.
+- We developed a simple API allowing users to complete a personal details form for website sign-up, with the ability to retrieve information through a GET method without validation parameters on the same screen.
 
-### 5. Practica-5-Springboot-Testing - Backend function testing in Spring Boot applications.
-- This was an evolution from our previous project, adding validation to our form now. Ensuring that the dates of birth, email and names had a valid format using RegEx validation. This was an example of implementing unit tests. 
-- As this data would then be registered into a database we learned the importance of backend testing so that data would be uniform across the board. 
-
+### 5. Practica-5-Springboot-Testing - Backend function testing in Spring Boot applications
+- This project evolved from the previous one, adding form validation to ensure dates of birth, email addresses, and names adhered to valid formats using RegEx validation.
+- We explored the implementation of unit tests and learned the importance of backend testing for maintaining uniform data across a database.
 
 ### 6. Practica-Final - Final Project
-
 ![Volta - Image 1](./repo-images/final-proj-1.png)
 ![Volta - Image 2](./repo-images/final-proj-2.png)
 ![Volta - Image 3](./repo-images/final-proj-3.png)
-- We had around a week to develop our final project along with a classmate. We had an idea for developing an electric car charger rental service named Volta. Where users would be able to use or rent out their electric car chargers in exchange for a fee. Gig economy style.
-- The site is able to register users and charger hosts, it's also able to add chargers to the database so that users can book a slot for them. They are also visible using a map functionality. This was all possible by recompiling everything we learned in the course. Using Bootstrap templates, JavaScript scripts, a SpringBoot back-end and our own API to allow the front-end to communicate with the back-end. 
+- For our final project, completed with a classmate over the course of a week, we developed "Volta" - an electric car charger rental service. The concept allows users to rent out or use electric car chargers for a fee, similar to a gig economy model.
+- The site facilitates user and charger host registration, addition of chargers to the database, and booking of charging slots. It also features map functionality to display charger locations.
+- This project synthesized all course learnings, incorporating Bootstrap templates, JavaScript, a Spring Boot back-end, and a custom API for front-end to back-end communication.
 
 ## Getting Started
 
-Each folder has its own README in Spanish if you're curious to go in more detail into each project. 
+Each project folder contains its own README in Spanish, providing more detailed information about each project.
 
 ## Prerequisites
 
-List of any software, tools, or dependencies required to run these projects.
+For projects 4 onwards, ensure you have the necessary software to run Spring Boot, including Java and Maven. Earlier projects use standard web technologies.
 
 ## Installation
 
-Just be sure you're able to run SpringBoot and have Java, Maven, etc... installed for Practicals 4 onwards | [Link to Springboot installation](https://spring.io/guides/gs/spring-boot). The rest are all standard webfiles. 
+For Practicals 4 and later, please refer to the [Spring Boot installation guide](https://spring.io/guides/gs/spring-boot). The earlier projects require no special installation.
 
 ## Contributing
 
-As this is coursework, contributions are not expected. However, feedback and suggestions are welcome.
+As this repository contains coursework, external contributions are not expected. However, feedback and suggestions are always welcome.
+
